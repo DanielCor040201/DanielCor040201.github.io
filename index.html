@@ -143,7 +143,11 @@
     padding:20px; position:relative; overflow:hidden;
   }
   .hero-retrato::before{
-    content: url("daniel.jpg");
+    display: inline-block;
+    width: 583px;
+    height: 583px;
+    background-image: url('daniel.jpg')
+    background-size: cover;
     white-space:pre-wrap; opacity:0.85;
   }
   /* Para usar una imagen real, borra la línea ::before de arriba
